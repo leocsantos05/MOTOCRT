@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+</head>
+<header class="bg-black text-white text-center p-5">
+    <h1>MOTOCRT</h1>
+    <h5>login ou cadastro a baixo</h5>
+</header>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <img class="col-sm-6 col-lg-1 p-3" src="imagens-adicionais/images.png" alt="moto">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="inicio.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-nos.html">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="linux.html">6 melhores motos até 20 mil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Comparativos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Digite Sua Pesquisa">
+          <button class="btn btn-primary" type="button">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+ </nav>
+<body>
+
+    <form action="/action_page.php" class="was-validated">
+        <div class="col-sm-6 col-lg-4 p-3">
+          <label for="uname" class="form-label">Nome do usuário:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Insira o nome de Usuário" name="usuário" required>
+          <div class="valid-feedback">Muito Obrigado</div>
+          <div class="invalid-feedback">Usuário Incorreto</div>
+        </div>
+        <div class="col-sm-6 col-lg-4 p-3">
+          <label for="pwd" class="form-label">Senha:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Digite sua Senha" name="pswd" required>
+          <div class="valid-feedback">Valido</div>
+          <div class="invalid-feedback">Usuário incorreto</div>
+        </div>
+        <div class="col-sm-6 col-lg-4 p-3">
+          <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+          <label class="form-check-label" for="myCheck">Lembre de Mim</label>
+          <div class="valid-feedback">Valido</div>
+          <div class="invalid-feedback">Marque esta caixa para continuar</div>
+        </div>
+        .
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+         Contiuar
+        </button>
+  
+        
+        <div class="modal" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">
+  
+        <div class="modal-header">
+          <h4 class="modal-title"> Cadatrasto ou Login Aprovado </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+         </div>
+  
+        <div class="modal-body">
+          Venha conferir nossas Últimas notícias
+        </div>
+  
+  
+      </div>
+    </div>
+  </div>
+
+      </form>
+
+
+      <div class="mt-5"></div>
+
+<div class="mt-4 p-5 bg-black text-white rounded">
+
+  <p style="text-align: center;">MOTOCRT@GMAIL.COM</p>
+  <p style="text-align: center;">Todo os direitos reservados</p>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
